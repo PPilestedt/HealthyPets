@@ -27,7 +27,7 @@ public class HPUtils {
      *
      * @param obj Object implementing the IFoodGuide interface
      */
-    public static void printFoodGuide(Inlämningsuppgift1.IFoodGuide obj){
+    public static void printFoodGuide(IFoodGuide obj){
 
         JOptionPane.showMessageDialog(null, obj.getFeedingPreference());
     }

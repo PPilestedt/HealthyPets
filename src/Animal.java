@@ -8,7 +8,7 @@
  *
  */
 
-public abstract class Animal implements Inlämningsuppgift1.IFoodGuide {
+public abstract class Animal implements IFoodGuide {
 
     protected String name;
     protected double weight;
