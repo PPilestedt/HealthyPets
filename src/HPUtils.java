@@ -27,7 +27,7 @@ public class HPUtils {
      * @param obj Object implementing the IFoodGuide interface
      */
     public static void printFoodGuide(IFoodGuide obj) {
-
+        //Polymorfism med hjälp av ett interface
         JOptionPane.showMessageDialog(null, obj.getFeedingPreference());
     }
 
