@@ -5,9 +5,8 @@ import javax.swing.*;
  * Date: 2020-09-28
  * Time: 10:34
  * Project: HealthyPets
- *
+ * <p>
  * Handles input and output for the HealthyPets program.
- *
  */
 
 public class HPUtils {
@@ -17,7 +16,7 @@ public class HPUtils {
      *
      * @return user input String
      */
-    public static String getInput(){
+    public static String getInput() {
 
         return JOptionPane.showInputDialog("Vilket djur skall få mat?");
     }
@@ -27,16 +26,17 @@ public class HPUtils {
      *
      * @param obj Object implementing the IFoodGuide interface
      */
-    public static void printFoodGuide(IFoodGuide obj){
+    public static void printFoodGuide(IFoodGuide obj) {
 
         JOptionPane.showMessageDialog(null, obj.getFeedingPreference());
     }
 
     /**
      * Prints error message
+     *
      * @param search the search string that did not find a match
      */
     public static void printNotFound(String search) {
-        JOptionPane.showMessageDialog(null,"Kunde inte hitta " + search,"Sökning misslyckades",JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Kunde inte hitta " + search, "Sökning misslyckades", JOptionPane.ERROR_MESSAGE);
     }
 }

@@ -6,10 +6,9 @@ import java.util.List;
  * Date: 2020-09-28
  * Time: 10:34
  * Project: HealthyPets
- *
+ * <p>
  * HealthyPets is a tool that calculates and generates a complete feeding instruction
  * for several different type of animals.
- *
  */
 
 public class HealthyPets {
@@ -18,15 +17,15 @@ public class HealthyPets {
      * Constructor that creates an list of animals and
      * starts the main program loop.
      */
-    public HealthyPets(){
+    public HealthyPets() {
 
         List<Animal> animalList = new ArrayList<Animal>();
 
-        animalList.add(new Dog("Sixten",5.0));
-        animalList.add(new Dog("Dogge",10.0));
-        animalList.add(new Cat("Venus",5.0));
-        animalList.add(new Cat("Ove",3.0));
-        animalList.add(new Snake("Hypno",1.0));
+        animalList.add(new Dog("Sixten", 5.0));
+        animalList.add(new Dog("Dogge", 10.0));
+        animalList.add(new Cat("Venus", 5.0));
+        animalList.add(new Cat("Ove", 3.0));
+        animalList.add(new Snake("Hypno", 1.0));
 
         programLoop(animalList);
     }
@@ -36,11 +35,11 @@ public class HealthyPets {
      *
      * @param animalList List of Animal objects
      */
-    private void programLoop(List<Animal> animalList){
+    private void programLoop(List<Animal> animalList) {
 
-        while(true) {
+        while (true) {
             String search = HPUtils.getInput();
-            if(search == null)
+            if (search == null)
                 break;
 
             for (Animal animal : animalList) {

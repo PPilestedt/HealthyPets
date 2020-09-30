@@ -3,9 +3,8 @@
  * Date: 2020-09-28
  * Time: 10:34
  * Project: HealthyPets
- *
+ * <p>
  * Cat class defines a cat.
- *
  */
 
 public class Cat extends Animal {
@@ -15,11 +14,11 @@ public class Cat extends Animal {
     /**
      * Construcotr for the Cat
      *
-     * @param name Name of the Cat
+     * @param name   Name of the Cat
      * @param weight Weight of the Cat
      */
-    public Cat(String name, double weight){
-        super(name,weight);
+    public Cat(String name, double weight) {
+        super(name, weight);
     }
 
     @Override

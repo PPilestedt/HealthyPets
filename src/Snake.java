@@ -3,9 +3,8 @@
  * Date: 2020-09-28
  * Time: 10:34
  * Project: HealthyPets
- *
+ * <p>
  * Snake class defines a snake.
- *
  */
 
 public class Snake extends Animal {
@@ -15,11 +14,11 @@ public class Snake extends Animal {
     /**
      * Constructor for a snake object
      *
-     * @param name Name of the snake
+     * @param name   Name of the snake
      * @param weight Weight of the snake
      */
-    public Snake(String name, double weight){
-        super(name,weight);
+    public Snake(String name, double weight) {
+        super(name, weight);
     }
 
     @Override

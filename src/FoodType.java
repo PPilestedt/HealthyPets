@@ -6,7 +6,7 @@ public enum FoodType {
 
     private String name;
 
-    FoodType(String name){
+    FoodType(String name) {
         this.name = name;
     }
 
