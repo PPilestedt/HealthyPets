@@ -10,7 +10,7 @@
 
 public class Dog extends Animal{
 
-    Inlämningsuppgift1.FoodType foodType = Inlämningsuppgift1.FoodType.HUNDFODER;
+    protected FoodType foodType = FoodType.HUNDFODER;
 
     /**
      * Constructor setting the name and weight of the Dog

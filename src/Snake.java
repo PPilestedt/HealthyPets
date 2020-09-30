@@ -10,7 +10,7 @@
 
 public class Snake extends Animal {
 
-    Inlämningsuppgift1.FoodType foodType = Inlämningsuppgift1.FoodType.ORMPELLETS;
+    protected FoodType foodType = FoodType.ORMPELLETS;
 
     /**
      * Constructor for a snake object

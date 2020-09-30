@@ -10,7 +10,7 @@
 
 public class Cat extends Animal {
 
-    Inlämningsuppgift1.FoodType foodType = Inlämningsuppgift1.FoodType.KATTFODER;
+    protected FoodType foodType = FoodType.KATTFODER;
 
     /**
      * Construcotr for the Cat

@@ -31,4 +31,12 @@ public class HPUtils {
 
         JOptionPane.showMessageDialog(null, obj.getFeedingPreference());
     }
+
+    /**
+     * Prints error message
+     * @param search the search string that did not find a match
+     */
+    public static void printNotFound(String search) {
+        JOptionPane.showMessageDialog(null,"Kunde inte hitta " + search,"Sökning misslyckades",JOptionPane.ERROR_MESSAGE);
+    }
 }
