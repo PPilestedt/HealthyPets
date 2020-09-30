@@ -9,6 +9,7 @@
 
 public abstract class Animal implements IFoodGuide {
 
+    //Protected (eller private) variabler samt setters and getters är inkapsling
     protected String name;
     protected double weight;
 
