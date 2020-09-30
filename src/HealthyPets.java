@@ -42,11 +42,15 @@ public class HealthyPets {
             if (search == null)
                 break;
 
+            boolean foundAnimal = false;
             for (Animal animal : animalList) {
                 if (animal.getName().equalsIgnoreCase(search)) {
+                    foundAnimal = true;
                     HPUtils.printFoodGuide(animal);
                 }
             }
+            if(!foundAnimal)
+                HPUtils.printNotFound(search);
         }
     }
 
